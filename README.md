@@ -6,7 +6,7 @@ Este repositório organiza toda a minha evolução prática em Java, desde proje
 
 ---
 
-## 📌 Estrutura do Repositório
+## 📌 Estrutura do Repositório 
 
 /projetos
 ├── banco-v1
@@ -23,7 +23,8 @@ Este repositório organiza toda a minha evolução prática em Java, desde proje
 /docs
 ├── anotações
 ├── estudos
-└── diagramas
+├── diagramas
+
 ---
 
 ## 🧱 Roadmap de Projetos (Evolução Progressiva)
