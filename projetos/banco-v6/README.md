@@ -1,68 +1,38 @@
 # Projeto: Banco - Versão 6
 
-Esta é a versão **6** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
-
-Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
+Nesta versão o projeto ganha validações, exceptions e logs.
 
 ---
 
 ## 🎯 Objetivo da Versão 6
 
-- Tratamento de erros, validações e logs. 
+- Criar tratadores globais de erros.  
+- Implementar validações com Bean Validation.  
+- Criar logs com Logback.  
+- Garantir segurança e clareza nas respostas da API.
 
 ---
 
-## 📚 Tecnologias Utilizadas
-- Java  
-- Spring Boot *(a partir da versão 3)*  
-- Spring Data JPA *(quando usado)*  
-- Hibernate  
-- MySQL  
-- Maven  
-- JUnit / Mockito  
-- Postman  
+## Tecnologias
+- Spring Boot  
+- Bean Validation  
+- Logback  
+- Spring Data JPA  
 
 ---
 
-## 📂 Estrutura do Projeto
-
-/src
-├── main
-│ ├── java
-│ └── resources
-└── test
-└── java
+## O que aprendi
+- ExceptionHandler global.  
+- Logs profissionais.  
+- Mensagens de erro padronizadas.
 
 ---
 
-## 🧠 O que eu aprendi nesta versão
-
-Liste em tópicos curtos:
-
-- Conceito 1  
-- Conceito 2  
-- Solução de problemas  
-- Boas práticas aplicadas  
-
----
-
-## ▶️ Como executar
+## Executar
 
 mvn spring-boot:run
 
-Ou, se for Java puro:
-
-javac Main.java
-java Main
-
 ---
 
-## ✅ Status do Projeto
-- [ ] Em andamento  
-- [ ] Finalizado  
-- [x] Em construção  
-
----
-
-## 📎 Notas adicionais
-(Anotações sobre problemas encontrados, decisões de design, pontos para melhorar etc.)
+## Status
+- [x] Em construção
