@@ -7,13 +7,8 @@ Cada versão apresenta novos conceitos, melhorias de arquitetura e boas prática
 ---
 
 ## 🎯 Objetivo da Versão 9
-(Descreva com poucas linhas o propósito desta versão. Exemplos:)
 
-- Implementar as operações bancárias básicas via console.  
-- Migrar para API REST utilizando Spring Boot.  
-- Aplicar persistência com MySQL usando JPA/Hibernate.  
-- Implementar arquitetura em camadas (Controller → Service → Repository).  
-- Criar testes automatizados com JUnit e Mockito.  
+- Deploy da API (Railway / Render / Docker). 
 
 ---
 
