@@ -9,22 +9,21 @@ Este repositório organiza toda a minha evolução prática em Java, desde proje
 ## 📌 Estrutura do Repositório
 
 /projetos
- /banco-v1
-  /banco-v2
-  /banco-v3
-  /banco-v4
-  /banco-v5
-  /banco-v6
-  /banco-v7
-  /banco-v8
-  /banco-v9
-  /banco-v10
+├── banco-v1
+├── banco-v2
+├── banco-v3
+├── banco-v4
+├── banco-v5
+├── banco-v6
+├── banco-v7
+├── banco-v8
+├── banco-v9
+└── banco-v10
 
 /docs
 ├── anotações
 ├── estudos
 └── diagramas
-
 ---
 
 ## 🧱 Roadmap de Projetos (Evolução Progressiva)
