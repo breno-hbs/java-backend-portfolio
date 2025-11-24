@@ -1,48 +1,31 @@
 # Projeto: Banco - Versão 3
 
-Esta é a versão **3** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
-
-Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
+Esta é a versão 3 do meu projeto “Banco”, onde o sistema começa a se transformar em uma API REST real usando Spring Boot.
 
 ---
 
 ## 🎯 Objetivo da Versão 3
 
-- Criação da API REST com Spring Boot (Controllers + DTOs).
+- Criar a primeira API REST do projeto.  
+- Implementar Controllers e rotas básicas.  
+- Usar DTOs para entrada e saída de dados.  
+- Estruturar o projeto em camadas iniciais.
 
 ---
 
 ## 📚 Tecnologias Utilizadas
 - Java  
-- Spring Boot *(a partir da versão 3)*  
-- Spring Data JPA *(quando usado)*  
-- Hibernate  
-- MySQL  
-- Maven  
-- JUnit / Mockito  
+- Spring Boot  
+- Spring Web  
+- DTOs  
 - Postman  
 
 ---
 
-## 📂 Estrutura do Projeto
-
-/src
-├── main
-│ ├── java
-│ └── resources
-└── test
-└── java
-
----
-
 ## 🧠 O que eu aprendi nesta versão
-
-Liste em tópicos curtos:
-
-- Conceito 1  
-- Conceito 2  
-- Solução de problemas  
-- Boas práticas aplicadas  
+- Criar endpoints REST.  
+- Receber e enviar JSON.  
+- Separar Controller, Model e DTO.  
 
 ---
 
@@ -50,19 +33,7 @@ Liste em tópicos curtos:
 
 mvn spring-boot:run
 
-Ou, se for Java puro:
-
-javac Main.java
-java Main
-
 ---
 
-## ✅ Status do Projeto
-- [ ] Em andamento  
-- [ ] Finalizado  
-- [x] Em construção  
-
----
-
-## 📎 Notas adicionais
-(Anotações sobre problemas encontrados, decisões de design, pontos para melhorar etc.)
+## ✅ Status
+- [x] Em construção
