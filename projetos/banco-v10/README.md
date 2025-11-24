@@ -1,68 +1,32 @@
 # Projeto: Banco - Versão 10
 
-Esta é a versão **10** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
-
-Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
+Versão final e refinada do sistema bancário completo.
 
 ---
 
 ## 🎯 Objetivo da Versão 10
 
-- Refinamento final do portfólio (melhorias, documentação completa, padronização).  
+- Revisar toda a arquitetura.  
+- Padronizar código, exceptions e logs.  
+- Criar README final do projeto.  
+- Preparar versão de portfólio.
 
 ---
 
-## 📚 Tecnologias Utilizadas
-- Java  
-- Spring Boot *(a partir da versão 3)*  
-- Spring Data JPA *(quando usado)*  
-- Hibernate  
+## Tecnologias
+- Spring Boot  
+- JPA/Hibernate  
 - MySQL  
-- Maven  
-- JUnit / Mockito  
-- Postman  
+- JUnit  
+- Swagger  
 
 ---
 
-## 📂 Estrutura do Projeto
-
-/src
-├── main
-│ ├── java
-│ └── resources
-└── test
-└── java
-
----
-
-## 🧠 O que eu aprendi nesta versão
-
-Liste em tópicos curtos:
-
-- Conceito 1  
-- Conceito 2  
-- Solução de problemas  
-- Boas práticas aplicadas  
-
----
-
-## ▶️ Como executar
+## Executar
 
 mvn spring-boot:run
 
-Ou, se for Java puro:
-
-javac Main.java
-java Main
-
 ---
 
-## ✅ Status do Projeto
-- [ ] Em andamento  
-- [ ] Finalizado  
-- [x] Em construção  
-
----
-
-## 📎 Notas adicionais
-(Anotações sobre problemas encontrados, decisões de design, pontos para melhorar etc.)
+## Status
+- [x] Em construção
