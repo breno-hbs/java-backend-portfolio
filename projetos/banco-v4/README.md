@@ -1,12 +1,12 @@
-# Projeto: Banco - Versão 1
+# Projeto: Banco - Versão 4
 
-Esta é a versão **1** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
+Esta é a versão **4** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
 
 Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
 
 ---
 
-## 🎯 Objetivo da Versão 1
+## 🎯 Objetivo da Versão 4
 (Descreva com poucas linhas o propósito desta versão. Exemplos:)
 
 - Implementar as operações bancárias básicas via console.  
