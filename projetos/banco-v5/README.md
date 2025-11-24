@@ -1,68 +1,37 @@
 # Projeto: Banco - Versão 5
 
-Esta é a versão **5** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
-
-Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
+Nesta versão o projeto recebe arquitetura profissional em camadas.
 
 ---
 
 ## 🎯 Objetivo da Versão 5
 
-- Arquitetura em camadas (Controller → Service → Repository).  
+- Implementar arquitetura Controller → Service → Repository.  
+- Organizar o projeto de forma escalável.  
+- Aplicar boas práticas (SOLID, Clean Code).  
+- Separar responsabilidades corretamente.
 
 ---
 
-## 📚 Tecnologias Utilizadas
-- Java  
-- Spring Boot *(a partir da versão 3)*  
-- Spring Data JPA *(quando usado)*  
-- Hibernate  
+## 📚 Tecnologias
+- Spring Boot  
+- Spring Data JPA  
 - MySQL  
-- Maven  
-- JUnit / Mockito  
-- Postman  
 
 ---
 
-## 📂 Estrutura do Projeto
-
-/src
-├── main
-│ ├── java
-│ └── resources
-└── test
-└── java
+## 🧠 Aprendizados
+- Boas práticas de arquitetura.  
+- Injeção de dependência.  
+- Camadas independentes.
 
 ---
 
-## 🧠 O que eu aprendi nesta versão
-
-Liste em tópicos curtos:
-
-- Conceito 1  
-- Conceito 2  
-- Solução de problemas  
-- Boas práticas aplicadas  
-
----
-
-## ▶️ Como executar
+## ▶️ Executar
 
 mvn spring-boot:run
 
-Ou, se for Java puro:
-
-javac Main.java
-java Main
-
 ---
 
-## ✅ Status do Projeto
-- [ ] Em andamento  
-- [ ] Finalizado  
-- [x] Em construção  
-
----
-
-## 📎 Notas adicionais
-(Anotações sobre problemas encontrados, decisões de design, pontos para melhorar etc.)
+## Status
+- [x] Em construção
