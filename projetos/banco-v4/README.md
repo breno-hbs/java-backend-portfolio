@@ -1,68 +1,41 @@
 # Projeto: Banco - Versão 4
 
-Esta é a versão **4** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
-
-Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
+Nesta versão, o projeto recebe persistência real com MySQL usando JPA/Hibernate.
 
 ---
 
 ## 🎯 Objetivo da Versão 4
 
-- Integração com MySQL via JPA/Hibernate.
+- Integrar o projeto com MySQL.  
+- Mapear entidades com JPA/Hibernate.  
+- Salvar contas, clientes e transações no banco de dados.  
+- Criar Repositories utilizando Spring Data JPA.
 
 ---
 
 ## 📚 Tecnologias Utilizadas
 - Java  
-- Spring Boot *(a partir da versão 3)*  
-- Spring Data JPA *(quando usado)*  
+- Spring Boot  
+- Spring Data JPA  
 - Hibernate  
 - MySQL  
-- Maven  
-- JUnit / Mockito  
 - Postman  
 
 ---
 
-## 📂 Estrutura do Projeto
-
-/src
-├── main
-│ ├── java
-│ └── resources
-└── test
-└── java
-
----
-
 ## 🧠 O que eu aprendi nesta versão
-
-Liste em tópicos curtos:
-
-- Conceito 1  
-- Conceito 2  
-- Solução de problemas  
-- Boas práticas aplicadas  
+- Criar e configurar banco de dados.  
+- Criar repositórios JPA.  
+- Mapear entidades com @Entity e @Table.  
+- Relacionamentos 1:N, N:1, N:N.
 
 ---
 
-## ▶️ Como executar
+## ▶️ Executar
 
 mvn spring-boot:run
 
-Ou, se for Java puro:
-
-javac Main.java
-java Main
-
 ---
 
-## ✅ Status do Projeto
-- [ ] Em andamento  
-- [ ] Finalizado  
-- [x] Em construção  
-
----
-
-## 📎 Notas adicionais
-(Anotações sobre problemas encontrados, decisões de design, pontos para melhorar etc.)
+## ✅ Status
+- [x] Em construção
