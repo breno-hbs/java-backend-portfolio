@@ -1,57 +1,37 @@
 # Projeto: Banco - Versão 2
 
-Esta é a versão **2** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
+Esta é a versão 2 do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
 
-Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
+Cada versão adiciona novos conceitos, melhorias estruturais e boas práticas de desenvolvimento.
 
 ---
 
 ## 🎯 Objetivo da Versão 2
-(Descreva com poucas linhas o propósito desta versão. Exemplos:)
 
-- CRUD organizado em Java usando POO + camadas simples. 
+- Criar um CRUD completo em Java puro.  
+- Aplicar conceitos de Programação Orientada a Objetos (POO).  
+- Separar responsabilidades (classes separadas para conta, operações, cliente etc).  
+- Introduzir camadas simples (organização inicial do código).  
+- Melhorar legibilidade e modularidade do projeto.
 
 ---
 
 ## 📚 Tecnologias Utilizadas
 - Java  
-- Spring Boot *(a partir da versão 3)*  
-- Spring Data JPA *(quando usado)*  
-- Hibernate  
-- MySQL  
-- Maven  
-- JUnit / Mockito  
-- Postman  
-
----
-
-## 📂 Estrutura do Projeto
-
-/src
-├── main
-│ ├── java
-│ └── resources
-└── test
-└── java
+- POO  
+- Git & GitHub  
 
 ---
 
 ## 🧠 O que eu aprendi nesta versão
-
-Liste em tópicos curtos:
-
-- Conceito 1  
-- Conceito 2  
-- Solução de problemas  
-- Boas práticas aplicadas  
+- Organização do código em classes.  
+- Reaproveitamento de métodos.  
+- Encapsulamento e boas práticas de POO.  
+- Estrutura de CRUD sem frameworks.  
 
 ---
 
 ## ▶️ Como executar
-
-mvn spring-boot:run
-
-Ou, se for Java puro:
 
 javac Main.java
 java Main
@@ -59,11 +39,5 @@ java Main
 ---
 
 ## ✅ Status do Projeto
-- [ ] Em andamento  
-- [ ] Finalizado  
 - [x] Em construção  
-
----
-
-## 📎 Notas adicionais
-(Anotações sobre problemas encontrados, decisões de design, pontos para melhorar etc.)
+- [ ] Finalizado  
