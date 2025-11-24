@@ -1,68 +1,31 @@
 # Projeto: Banco - Versão 8
 
-Esta é a versão **8** do meu projeto “Banco”, parte da evolução progressiva do meu portfólio Back-End em Java.
-
-Cada versão apresenta novos conceitos, melhorias de arquitetura e boas práticas.
+Nesta versão o sistema ganha documentação oficial.
 
 ---
 
 ## 🎯 Objetivo da Versão 8
 
-- Swagger/OpenAPI. 
+- Documentar toda a API com Swagger/OpenAPI.  
+- Explicar endpoints, modelos e fluxos para consumo externo.  
+- Facilitar testes e entendimento do sistema.
 
 ---
 
-## 📚 Tecnologias Utilizadas
-- Java  
-- Spring Boot *(a partir da versão 3)*  
-- Spring Data JPA *(quando usado)*  
-- Hibernate  
-- MySQL  
-- Maven  
-- JUnit / Mockito  
-- Postman  
+## Tecnologias
+- Springdoc OpenAPI  
+- Swagger UI  
 
 ---
 
-## 📂 Estrutura do Projeto
-
-/src
-├── main
-│ ├── java
-│ └── resources
-└── test
-└── java
-
----
-
-## 🧠 O que eu aprendi nesta versão
-
-Liste em tópicos curtos:
-
-- Conceito 1  
-- Conceito 2  
-- Solução de problemas  
-- Boas práticas aplicadas  
-
----
-
-## ▶️ Como executar
+## Executar
 
 mvn spring-boot:run
 
-Ou, se for Java puro:
-
-javac Main.java
-java Main
+Depois acesse:  
+http://localhost:8080/swagger-ui.html
 
 ---
 
-## ✅ Status do Projeto
-- [ ] Em andamento  
-- [ ] Finalizado  
-- [x] Em construção  
-
----
-
-## 📎 Notas adicionais
-(Anotações sobre problemas encontrados, decisões de design, pontos para melhorar etc.)
+## Status
+- [x] Em construção
